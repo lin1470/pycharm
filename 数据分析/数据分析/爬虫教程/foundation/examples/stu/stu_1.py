@@ -27,8 +27,9 @@ class Stu:
 
 stu = Stu()
 html = stu.login(stu.url)
-print html.decode('utf-8')
+# print html.decode('utf-8')
 # htmlEncoding = htmlGuess['encoding']
+print sys.getfilesystemencoding()
 # html_decoded = html.decode(htmlEncoding)
 # sys_encoding = sys.getfilesystemencoding()
 # html_encoded = html_decoded.encode(sys_encoding)
